@@ -4,17 +4,6 @@ import 'dart:io';
 enum Moves { rock, paper, scissors }
 
 void main() {
-  // loop
-  // Show a prompt
-  // Read user input
-  // if input is valid
-  //    choose AI move as random
-  //    compare
-  //    show result
-  // else if input q
-  //  Quit
-  // else
-  //    invalid input
   final rng = Random();
   while (true) {
     stdout.write('Rock, paper or scissor? (r/p/s q to quit): ');
